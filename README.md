@@ -26,11 +26,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - PHP: Version 8.1-8.2
 - Database: MySQL 5.0 with a dedicated user with full privileges
 - Domain or Static IP
-- Web-Based Installer
+- Install necessary dependencies like C++ Redistributable
+- Web-Based Installer with HeidiSQL to finalize installation with MySQL credentials
 
 <h2>Installation Steps</h2>
 
 <p>
+First step is to enable Internet Information Services (IIS) with the CGI feature, which allows PHP to work with IIS, using the "Turn Windows features on or off" utility. After enabling IIS, install PHP Manager for IIS and the URL Rewrite Module to manage PHP settings and URL routing. Next extract PHP 7.3.8 into the C:\PHP directory so that IIS can use it to process PHP scripts for osTicket.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
