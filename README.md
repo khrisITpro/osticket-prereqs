@@ -15,7 +15,7 @@ This tutorial covers the requirements and installation process for the open-sour
 
 <h2>Operating Systems Used </h2>
 
-- Windows 11</b> 
+- Windows 11</b> (25/H2)
 
 <h2>List of Prerequisites</h2>
 
