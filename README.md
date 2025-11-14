@@ -123,18 +123,28 @@ Reload IIS and navigate to sites -> Default -> osTicket On the right, click “B
 <br />
 
 <p>
-<img src="https://i.imgur.com/JEdBG6b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1126" height="633" alt="ost12" src="https://github.com/user-attachments/assets/f18138c0-e43f-4de2-ba24-3a73291832a3" />
 </p>
 <p>
-Navigate to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the file to ost-config.php in the same directory (C:\inetpub\wwwroot\osTicket\include).
+Navigate to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the file to "ost-config.php".
+<br />
+
+<p>
+<img width="1113" height="825" alt="ost13" src="https://github.com/user-attachments/assets/54b34d37-4470-4faf-8640-10c207932b79" />
+<img width="913" height="596" alt="ost14" src="https://github.com/user-attachments/assets/8193ed5b-cc12-4054-9af9-493ad0a98471" />
+
+</p>
+<p>
+Assign the appropriate permissions to ost-config.php by right-clicking the file and selecting Properties. In the Security tab, disable inheritance, remove all existing permissions, and grant Everyone full access.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/vFIs9DL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="677" height="476" alt="ost15" src="https://github.com/user-attachments/assets/c1b62fe6-d731-4c05-908b-80ef15ae1d45" />
+<img width="931" height="590" alt="ost16" src="https://github.com/user-attachments/assets/83e7d5d4-928c-4c5c-a979-ec084de84c2a" />
 </p>
 <p>
-Assign the appropriate permissions to ost-config.php by right-clicking the file and selecting Properties. In the Security tab, disable inheritance, remove all existing permissions, and grant Everyone full access.
+From the osTicket installation folder, install HeidiSQL, create a new session (root/root), connect to the session, and create a database called "osTicket".
 </p>
 <br />
 
