@@ -98,28 +98,28 @@ Launch the configuration wizard after the install, choose standard config, and s
 <br />
 
 <p>
-<img src="https://i.imgur.com/HFBKqHa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1770" height="1010" alt="ost9" src="https://github.com/user-attachments/assets/5de64f0b-8e3f-4569-b79e-72fadd7e5114" />
 </p>
 <p>
-Open IIS Manager as an administrator. Register PHP within IIS by configuring the necessary settings. Afterward, restart the server by selecting Restart in the IIS Manager.
+Open IIS Manager as an administrator. Register PHP within IIS by navigating towards the executable file (PHP Manager -> C:\PHP\php-cgi.exe)
+. Reload the server by selecting Restart in the IIS Manager.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/dUEDOI2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1119" height="622" alt="ost9" src="https://github.com/user-attachments/assets/8193e15b-a749-4ddf-bb1c-9949e52839c8" />
 </p>
 <p>
-From the osTicket-Installation-Files folder, unzip osTicket-v1.15.8.zip and copy the upload folder to C:\inetpub\wwwroot. Then, within C:\inetpub\wwwroot, rename the upload folder to osTicket.
+From the osTicket-Installation-Files folder, unzip osTicket-v1.15.8.zip and copy the "upload" folder to C:\inetpub\wwwroot. Then, within C:\inetpub\wwwroot, rename the upload folder to "osTicket".
 </p>
 <br />
 
 
 <p>
-<img src="https://i.imgur.com/ofoOo0Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="3425" height="1350" alt="ost11" src="https://github.com/user-attachments/assets/c85a5cbe-0c0e-4624-83cc-de60c2c8ed96" />
 </p>
 <p>
-Return to IIS Manager and restart the server. Enable the necessary PHP extensions by navigating to Sites -> Default -> osTicket, then double-click PHP Manager. Select "Disable or enable an extension" and enable php_intl.dll, php_opcache.dll, and php_imap.dll. Afterward, refresh the osTicket web server and verify that the Intl Extension is now enabled.
-</p>
+Reload IIS and navigate to sites -> Default -> osTicket On the right, click “Browse *:80”. Enable the necessary PHP extensions by navigating to Sites -> Default -> osTicket, then double-click PHP Manager. Select "Disable or enable an extension" and enable php_intl.dll, php_opcache.dll, and php_imap.dll. Refresh the osTicket web server and verify the changes have been set.
 <br />
 
 <p>
